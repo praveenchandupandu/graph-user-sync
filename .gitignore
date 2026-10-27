@@ -1,0 +1,13 @@
+# Secrets
+.env
+
+# Runtime data (generated on every run)
+state/
+output/
+logs/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
