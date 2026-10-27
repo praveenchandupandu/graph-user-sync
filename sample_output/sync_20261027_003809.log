@@ -1,0 +1,91 @@
+2026-10-27 00:38:09 | INFO    | sync         | === Sync run 60eb30d5 started ===
+2026-10-27 00:38:09 | INFO    | sync         | Target API: http://127.0.0.1:5000 | page size: 100 | max attempts: 5
+2026-10-27 00:38:10 | INFO    | auth         | Obtained new Microsoft Graph access token
+2026-10-27 00:38:10 | INFO    | graph        | Graph page 1: received 100 users (more pages available)
+2026-10-27 00:38:10 | WARNING | sync         | user 6632aba0-8def-49d6-b38e-4b8dab285b09: missing fields set to null: department
+2026-10-27 00:38:10 | WARNING | sync         | user 77af646e-ad1b-4565-adab-cafd3359f821: no mail, used userPrincipalName as email
+2026-10-27 00:38:10 | WARNING | sync         | user 47de1c38-e3ab-4ed5-aad4-199dc97a9ff0: no mail, used userPrincipalName as email
+2026-10-27 00:38:10 | WARNING | sync         | user 26b55d2f-d9ef-483c-9f92-e915ebb8e08a: no mail, used userPrincipalName as email
+2026-10-27 00:38:10 | WARNING | sync         | user b2ac718f-577f-4064-a9c7-233c68bb9082: missing fields set to null: department
+2026-10-27 00:38:10 | WARNING | sync         | user 8f452932-6c41-478b-98ea-d298d157b653: no mail, used userPrincipalName as email
+2026-10-27 00:38:10 | WARNING | sync         | user a452d85e-8ded-431c-8bbb-ba5bb4967d96: missing fields set to null: job_title
+2026-10-27 00:38:10 | WARNING | sync         | user 37fe3a3b-0624-452b-b114-bbb1fa316dd9: missing fields set to null: job_title
+2026-10-27 00:38:10 | WARNING | sync         | user 8bb832e5-b4ab-42b2-9b75-b99dbe7030d0: no mail, used userPrincipalName as email
+2026-10-27 00:38:10 | WARNING | sync         | user 8bb832e5-b4ab-42b2-9b75-b99dbe7030d0: missing fields set to null: department
+2026-10-27 00:38:10 | WARNING | sync         | user 988c1b09-eeba-4d72-8672-58abff6a7bc7: no mail, used userPrincipalName as email
+2026-10-27 00:38:10 | WARNING | sync         | user dfb6e951-fec0-47cb-80bb-5c0a9382d352: no mail, used userPrincipalName as email
+2026-10-27 00:38:10 | WARNING | sync         | user 55d95de4-b2cc-495a-99b1-d8d36b317f41: no mail, used userPrincipalName as email
+2026-10-27 00:38:10 | WARNING | sync         | user 55d95de4-b2cc-495a-99b1-d8d36b317f41: missing fields set to null: department
+2026-10-27 00:38:10 | WARNING | sync         | user df960105-4fd0-40ed-ab48-94977d2c7525: missing fields set to null: job_title
+2026-10-27 00:38:10 | WARNING | sync         | user 35f3996c-1025-4ae3-876f-68bc94a03e8e: missing fields set to null: job_title
+2026-10-27 00:38:10 | WARNING | sync         | user ba99780b-04fd-437d-921f-341bd28b325a: missing fields set to null: job_title
+2026-10-27 00:38:10 | WARNING | sync         | user faea8f3e-eb88-4b9e-a55e-b93dd133993f: missing fields set to null: job_title, department
+2026-10-27 00:38:10 | WARNING | sync         | user 5ee31e65-b4c4-470f-8d0c-bb61fffa6fd4: no mail, used userPrincipalName as email
+2026-10-27 00:38:10 | WARNING | sync         | user 4a2b5b18-cd38-45c4-b5d7-9d4c7cd10a3e: missing fields set to null: department
+2026-10-27 00:38:10 | WARNING | sync         | user 1018a2cd-bb53-4265-8494-60aa6dcba836: missing fields set to null: job_title
+2026-10-27 00:38:10 | WARNING | sync         | user b7278e68-673f-4c04-8d3b-de52bee90556: no mail, used userPrincipalName as email
+2026-10-27 00:38:10 | WARNING | sync         | user 1a036490-f581-4c16-85f6-62cef018bc8d: no mail, used userPrincipalName as email
+2026-10-27 00:38:10 | WARNING | sync         | user a58a8c75-ed30-4858-af18-dd51a430eeaf: missing fields set to null: department
+2026-10-27 00:38:10 | WARNING | sync         | user ad4c3b3c-8292-4de6-8852-5954ef6d85cb: no mail, used userPrincipalName as email
+2026-10-27 00:38:10 | WARNING | sync         | user faf05e95-d377-40b3-b97e-76d1238a9686: no mail, used userPrincipalName as email
+2026-10-27 00:38:10 | WARNING | sync         | user faf05e95-d377-40b3-b97e-76d1238a9686: missing fields set to null: department
+2026-10-27 00:38:10 | INFO    | graph        | Graph page 2: received 100 users (more pages available)
+2026-10-27 00:38:10 | WARNING | sync         | user 5433f10e-bc2e-4368-b23d-a6808f480810: no mail, used userPrincipalName as email
+2026-10-27 00:38:10 | WARNING | sync         | user e2cb56fb-2baa-4f6a-8d62-e1e7505041f4: no mail, used userPrincipalName as email
+2026-10-27 00:38:10 | WARNING | sync         | user 21391ac8-c229-4503-ab78-1bb2e594d369: missing fields set to null: job_title
+2026-10-27 00:38:10 | WARNING | sync         | user 878c42d2-f1b9-4a11-a152-02b85ad2f82a: missing fields set to null: department
+2026-10-27 00:38:10 | WARNING | sync         | user 2d9667f5-86ff-4032-92e1-a1d966cd125d: missing fields set to null: job_title
+2026-10-27 00:38:10 | WARNING | sync         | user 9dd316a7-aa4a-4225-8a64-bd3249e5faf7: missing fields set to null: department
+2026-10-27 00:38:10 | WARNING | sync         | user a0ad6f11-8e9f-488a-8e4e-95e3a39bc452: no mail, used userPrincipalName as email
+2026-10-27 00:38:10 | WARNING | sync         | user deaa2080-f61a-432d-b28c-15622d966a17: no mail, used userPrincipalName as email
+2026-10-27 00:38:10 | WARNING | sync         | user 1247f970-2388-4bbe-97a9-271a077396d4: missing fields set to null: department
+2026-10-27 00:38:10 | WARNING | sync         | user 00251e5f-d2f1-4f66-ac93-3b143b6f7914: missing fields set to null: job_title, department
+2026-10-27 00:38:10 | WARNING | sync         | user db36d1bb-d5d9-4c32-97ca-80675326ca8c: missing fields set to null: department
+2026-10-27 00:38:10 | WARNING | sync         | user a0033bb9-e9da-4230-99fb-95d7be3d647c: missing fields set to null: job_title
+2026-10-27 00:38:10 | WARNING | sync         | user 08d358d8-cdbb-4bc8-a868-c4f3aa534915: missing fields set to null: job_title
+2026-10-27 00:38:10 | WARNING | sync         | user b3b32d15-cdb0-44af-9ef1-a78fdcaba3ec: missing fields set to null: job_title
+2026-10-27 00:38:10 | WARNING | sync         | user 5f81ecc9-c1b2-4c31-bd50-30ccb33ba63f: missing fields set to null: job_title
+2026-10-27 00:38:10 | WARNING | sync         | user 9883e034-c55c-406a-af6e-f031b96ad95b: no mail, used userPrincipalName as email
+2026-10-27 00:38:10 | WARNING | sync         | user e3f58854-f090-4a22-8b13-d6c079848ce8: missing fields set to null: job_title
+2026-10-27 00:38:10 | WARNING | sync         | user e4c01056-fa61-485c-9d9c-3d06fac58449: no mail, used userPrincipalName as email
+2026-10-27 00:38:10 | WARNING | sync         | user 87340e3c-57ff-4987-9863-278150f40257: missing fields set to null: department
+2026-10-27 00:38:10 | WARNING | sync         | user 0b43586b-c09a-4d7d-b3c7-1fc6d310ec40: no mail, used userPrincipalName as email
+2026-10-27 00:38:10 | WARNING | sync         | user 0b43586b-c09a-4d7d-b3c7-1fc6d310ec40: missing fields set to null: job_title
+2026-10-27 00:38:10 | WARNING | sync         | user e22da697-ffbf-4755-9f61-140ebdaa45a3: missing fields set to null: job_title
+2026-10-27 00:38:10 | WARNING | sync         | user 71e1e42a-e958-4618-b40e-261cc3bed973: missing fields set to null: job_title
+2026-10-27 00:38:10 | WARNING | sync         | user 80278391-ba1b-4a41-8e06-e4e65fca7a96: no mail, used userPrincipalName as email
+2026-10-27 00:38:10 | WARNING | sync         | user 80278391-ba1b-4a41-8e06-e4e65fca7a96: missing fields set to null: department
+2026-10-27 00:38:10 | WARNING | sync         | user 3e55fbd2-9d78-43a5-9995-1971021d4d16: missing fields set to null: department
+2026-10-27 00:38:10 | WARNING | sync         | user 63a12840-c009-4dc4-bb29-ab7f6722401e: no mail, used userPrincipalName as email
+2026-10-27 00:38:10 | WARNING | sync         | user 19220603-db40-48b0-8f42-12a02c052a63: no mail, used userPrincipalName as email
+2026-10-27 00:38:10 | WARNING | sync         | user 19220603-db40-48b0-8f42-12a02c052a63: missing fields set to null: job_title, department, office
+2026-10-27 00:38:10 | WARNING | sync         | user 6efa8dea-d5d8-4232-8a01-d2b565c6b067: missing fields set to null: department, office
+2026-10-27 00:38:10 | WARNING | sync         | user aaace661-b2c1-4d5c-a512-30cd9d6a8ae1: missing fields set to null: job_title
+2026-10-27 00:38:10 | WARNING | sync         | user 9ec75d81-133d-44f4-8b9f-f948cee31f69: missing fields set to null: department
+2026-10-27 00:38:10 | WARNING | sync         | user c74a75aa-501d-4b86-806e-ce38fbe27367: no mail, used userPrincipalName as email
+2026-10-27 00:38:11 | INFO    | graph        | Graph page 3: received 51 users (last page)
+2026-10-27 00:38:11 | WARNING | sync         | user fb201ce7-690a-4116-8f10-9bb2f6edf386: no mail, used userPrincipalName as email
+2026-10-27 00:38:11 | WARNING | sync         | user cce26787-023d-4f10-ade0-bac70e34f480: missing fields set to null: job_title
+2026-10-27 00:38:11 | WARNING | sync         | user 4edba79d-49e2-46fc-a262-13ddb204f6ce: missing fields set to null: job_title
+2026-10-27 00:38:11 | WARNING | sync         | user 51c17d42-ca26-461f-b8b4-dfad9cca613e: missing fields set to null: department
+2026-10-27 00:38:11 | WARNING | sync         | user 432b9922-1edf-4451-b8b2-e8719e986eab: missing fields set to null: department
+2026-10-27 00:38:11 | WARNING | sync         | user 194208dc-9d0d-4fcd-b0d5-c8feb1ca8fc8: missing fields set to null: department
+2026-10-27 00:38:11 | WARNING | sync         | user 2ebe4128-270d-4e5b-9492-7f0109f2d62d: no mail, used userPrincipalName as email
+2026-10-27 00:38:11 | WARNING | sync         | user bb5ba7b4-f9b1-4712-9925-fddb1dd52b67: missing fields set to null: job_title
+2026-10-27 00:38:11 | WARNING | sync         | user 50f61ad7-47dd-4834-b738-0e405e92d710: missing fields set to null: department
+2026-10-27 00:38:11 | WARNING | sync         | user 7d598e8d-df17-4c76-8759-693aaad241fe: missing fields set to null: job_title
+2026-10-27 00:38:11 | WARNING | sync         | user 780fd86b-dadf-4323-bbd5-db59e7b6c56a: missing fields set to null: job_title
+2026-10-27 00:38:11 | WARNING | sync         | user 471da59d-0df2-4db4-b33f-52abd3b428af: missing fields set to null: department
+2026-10-27 00:38:11 | WARNING | sync         | user 1f0dfc13-7ab8-41fd-a7c3-41c9b4724fdb: missing fields set to null: department, office
+2026-10-27 00:38:11 | WARNING | sync         | user f295c0f3-f487-4ffb-b3af-a1faebe5f32a: missing fields set to null: job_title
+2026-10-27 00:38:11 | WARNING | sync         | user b2f2e7b1-2e39-486b-b986-fbb513d812c9: no mail, used userPrincipalName as email
+2026-10-27 00:38:11 | WARNING | sync         | user bbddfa6b-0ac1-42d7-b29d-768e997a04b6: missing fields set to null: department
+2026-10-27 00:38:11 | WARNING | sync         | user d92b7edd-34d9-42b1-a487-b980d82bbe9c: no mail, used userPrincipalName as email
+2026-10-27 00:38:11 | WARNING | sync         | user c142744e-38c6-4e17-8d5b-d38f2d4119d3: no mail, used userPrincipalName as email
+2026-10-27 00:38:11 | INFO    | sync         | Transformed JSON written to output/users.json
+2026-10-27 00:38:11 | INFO    | sync         | === Summary (run 60eb30d5, 1.8s) ===
+2026-10-27 00:38:11 | INFO    | sync         |   fetched              251
+2026-10-27 00:38:11 | INFO    | sync         |   skipped_unchanged    251
+2026-10-27 00:38:11 | INFO    | sync         |   with_missing_fields  67
+2026-10-27 00:38:11 | INFO    | sync         |   failed               0
+2026-10-27 00:38:11 | INFO    | sync         | Log file: logs\sync_20261027_003809.log

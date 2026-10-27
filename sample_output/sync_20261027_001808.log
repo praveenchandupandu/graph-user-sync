@@ -1,0 +1,4 @@
+2026-10-27 00:18:08 | INFO    | sync         | === Sync run 26080919 started (DRY RUN - nothing will be sent) ===
+2026-10-27 00:18:08 | INFO    | sync         | Target API: http://127.0.0.1:5000 | page size: 100 | max attempts: 5
+2026-10-27 00:18:09 | INFO    | auth         | Obtained new Microsoft Graph access token
+2026-10-27 00:18:10 | ERROR   | sync         | Reading users from Microsoft Graph failed: GET graph.microsoft.com/v1.0/users -> HTTP 403: {"error":{"code":"Authorization_RequestDenied","message":"Insufficient privileges to complete the operation.","innerError":{"date":"2026-10-27T04:18:11","request-id":"8d2de89c-8af1-4975-bd29-7671961a3ef1","client-request-id":"8d2de89c-8af1-4975-bd29-7671961a3ef1"}}}

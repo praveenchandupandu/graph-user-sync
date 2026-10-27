@@ -1,0 +1,358 @@
+2026-10-27 00:34:16 | INFO    | sync         | === Sync run edfb59d9 started ===
+2026-10-27 00:34:16 | INFO    | sync         | Target API: http://127.0.0.1:5000 | page size: 100 | max attempts: 5
+2026-10-27 00:34:17 | INFO    | auth         | Obtained new Microsoft Graph access token
+2026-10-27 00:34:18 | INFO    | graph        | Graph page 1: received 100 users (more pages available)
+2026-10-27 00:34:18 | INFO    | sync         | user 4a9e3de2-09ed-4986-92a7-4523007f859d: created (new)
+2026-10-27 00:34:18 | INFO    | sync         | user 50ea491c-f58a-4b84-ac96-f834ef8be3e3: created (new)
+2026-10-27 00:34:18 | INFO    | sync         | user 30342105-f2d8-4edd-9459-bfa2a0b9efa0: created (new)
+2026-10-27 00:34:18 | INFO    | sync         | user 0b38a743-8dc9-4d02-84e8-720ad3abdd5c: created (new)
+2026-10-27 00:34:18 | WARNING | sync         | user 6632aba0-8def-49d6-b38e-4b8dab285b09: missing fields set to null: department
+2026-10-27 00:34:18 | WARNING | http         | POST 127.0.0.1:5000/users -> HTTP 500 | attempt 1/5, retrying in 1.4s
+2026-10-27 00:34:20 | INFO    | sync         | user 6632aba0-8def-49d6-b38e-4b8dab285b09: created (new)
+2026-10-27 00:34:20 | WARNING | sync         | user 77af646e-ad1b-4565-adab-cafd3359f821: no mail, used userPrincipalName as email
+2026-10-27 00:34:20 | INFO    | sync         | user 77af646e-ad1b-4565-adab-cafd3359f821: created (new)
+2026-10-27 00:34:20 | WARNING | http         | POST 127.0.0.1:5000/users -> HTTP 500 | attempt 1/5, retrying in 1.0s
+2026-10-27 00:34:21 | INFO    | sync         | user 57e80084-953c-4c1b-b512-4a115f3bbcea: created (new)
+2026-10-27 00:34:21 | INFO    | sync         | user 1ab165d5-fc66-4a76-b3ea-82fb80fa58ef: created (new)
+2026-10-27 00:34:21 | WARNING | sync         | user 47de1c38-e3ab-4ed5-aad4-199dc97a9ff0: no mail, used userPrincipalName as email
+2026-10-27 00:34:21 | WARNING | http         | POST 127.0.0.1:5000/users -> HTTP 500 | attempt 1/5, retrying in 1.5s
+2026-10-27 00:34:22 | INFO    | sync         | user 47de1c38-e3ab-4ed5-aad4-199dc97a9ff0: created (new)
+2026-10-27 00:34:22 | INFO    | sync         | user d5c6c799-4a81-4142-b704-fd1e260ebd28: created (new)
+2026-10-27 00:34:22 | INFO    | sync         | user a3077ca7-1c69-421e-871d-c50fae5725de: created (new)
+2026-10-27 00:34:22 | WARNING | sync         | user 26b55d2f-d9ef-483c-9f92-e915ebb8e08a: no mail, used userPrincipalName as email
+2026-10-27 00:34:22 | INFO    | sync         | user 26b55d2f-d9ef-483c-9f92-e915ebb8e08a: created (new)
+2026-10-27 00:34:22 | INFO    | sync         | user 0b37044d-adf0-4e93-b711-07e807e2138d: created (new)
+2026-10-27 00:34:22 | INFO    | sync         | user 140eb9cc-124a-436a-89e1-a1aec1f3d68a: created (new)
+2026-10-27 00:34:22 | INFO    | sync         | user 8e78a160-c3b6-4657-8e5d-aba231604bca: created (new)
+2026-10-27 00:34:22 | INFO    | sync         | user 7fbfe69c-bfaf-425f-a3d1-66f08a4b5d20: created (new)
+2026-10-27 00:34:22 | INFO    | sync         | user b65a83a5-9d96-4e67-b555-3381cb1486cf: created (new)
+2026-10-27 00:34:22 | INFO    | sync         | user 65eb261a-7df7-4161-937d-878248701c33: created (new)
+2026-10-27 00:34:22 | WARNING | sync         | user b2ac718f-577f-4064-a9c7-233c68bb9082: missing fields set to null: department
+2026-10-27 00:34:22 | INFO    | sync         | user b2ac718f-577f-4064-a9c7-233c68bb9082: created (new)
+2026-10-27 00:34:22 | INFO    | sync         | user 7c3c6982-79fd-4e3a-b624-ebf2294f67e2: created (new)
+2026-10-27 00:34:22 | INFO    | sync         | user 9cf4ee1a-2174-4d9b-9049-cdf1d319e292: created (new)
+2026-10-27 00:34:23 | INFO    | sync         | user e230447f-fe02-4290-9c4f-429be2bb0449: created (new)
+2026-10-27 00:34:23 | INFO    | sync         | user 82d698be-6da9-4233-ba10-46b9c51224a9: created (new)
+2026-10-27 00:34:23 | INFO    | sync         | user ccfd0c2e-4677-470d-a3bd-5a5056c07520: created (new)
+2026-10-27 00:34:23 | INFO    | sync         | user 25dceb3c-c9a3-45d2-9bfe-f9f98ba9928b: created (new)
+2026-10-27 00:34:23 | WARNING | sync         | user 8f452932-6c41-478b-98ea-d298d157b653: no mail, used userPrincipalName as email
+2026-10-27 00:34:23 | INFO    | sync         | user 8f452932-6c41-478b-98ea-d298d157b653: created (new)
+2026-10-27 00:34:23 | INFO    | sync         | user 9963b9a4-ace6-41b7-a3ed-68e8933352f1: created (new)
+2026-10-27 00:34:23 | WARNING | sync         | user a452d85e-8ded-431c-8bbb-ba5bb4967d96: missing fields set to null: job_title
+2026-10-27 00:34:23 | INFO    | sync         | user a452d85e-8ded-431c-8bbb-ba5bb4967d96: created (new)
+2026-10-27 00:34:23 | INFO    | sync         | user 38bc8e6e-cba0-4c47-a328-dd8490797ea4: created (new)
+2026-10-27 00:34:23 | INFO    | sync         | user 399da171-a6ae-48b0-9c2a-710051efa3e2: created (new)
+2026-10-27 00:34:23 | WARNING | sync         | user 37fe3a3b-0624-452b-b114-bbb1fa316dd9: missing fields set to null: job_title
+2026-10-27 00:34:23 | INFO    | sync         | user 37fe3a3b-0624-452b-b114-bbb1fa316dd9: created (new)
+2026-10-27 00:34:23 | INFO    | sync         | user 63c8ebec-5f07-4156-9dbc-f184832efe70: created (new)
+2026-10-27 00:34:23 | INFO    | sync         | user 105aa662-0454-4c15-87e3-792fe21283e9: created (new)
+2026-10-27 00:34:23 | INFO    | sync         | user 66131821-4f0b-4246-8763-76e265f661cd: created (new)
+2026-10-27 00:34:23 | WARNING | sync         | user 8bb832e5-b4ab-42b2-9b75-b99dbe7030d0: no mail, used userPrincipalName as email
+2026-10-27 00:34:23 | WARNING | sync         | user 8bb832e5-b4ab-42b2-9b75-b99dbe7030d0: missing fields set to null: department
+2026-10-27 00:34:23 | INFO    | sync         | user 8bb832e5-b4ab-42b2-9b75-b99dbe7030d0: created (new)
+2026-10-27 00:34:23 | INFO    | sync         | user 3c0f7a36-e703-4a32-bc9c-e22690c9d1dc: created (new)
+2026-10-27 00:34:23 | WARNING | http         | POST 127.0.0.1:5000/users -> HTTP 500 | attempt 1/5, retrying in 1.1s
+2026-10-27 00:34:24 | INFO    | sync         | user 18661dd2-d2ed-4113-96cb-2e0180d30592: created (new)
+2026-10-27 00:34:24 | INFO    | sync         | user 6b171424-20e6-4a1e-a30a-c3ec1daa73b3: created (new)
+2026-10-27 00:34:24 | INFO    | sync         | user 1ff793be-24f9-4735-a214-1689b4860ceb: created (new)
+2026-10-27 00:34:24 | INFO    | sync         | user 76851ac8-ac32-40f9-8f90-509fdd01480d: created (new)
+2026-10-27 00:34:24 | WARNING | sync         | user 988c1b09-eeba-4d72-8672-58abff6a7bc7: no mail, used userPrincipalName as email
+2026-10-27 00:34:24 | INFO    | sync         | user 988c1b09-eeba-4d72-8672-58abff6a7bc7: created (new)
+2026-10-27 00:34:24 | INFO    | sync         | user f9274b0a-cc58-49bf-99f5-e5f78b3fe2e9: created (new)
+2026-10-27 00:34:24 | INFO    | sync         | user e2d661bf-5436-4ed2-9657-9c4b63bb2627: created (new)
+2026-10-27 00:34:24 | INFO    | sync         | user 2849e177-7890-4c23-a469-fff25795ef6d: created (new)
+2026-10-27 00:34:24 | WARNING | http         | POST 127.0.0.1:5000/users -> HTTP 429 (server asked to wait 2s via Retry-After) | attempt 1/5, retrying in 2.0s
+2026-10-27 00:34:26 | INFO    | sync         | user 7c421021-3a8d-40d6-9f2b-94d32d69b83e: created (new)
+2026-10-27 00:34:26 | INFO    | sync         | user 725ae039-7bad-430d-aa92-7ad532d0667d: created (new)
+2026-10-27 00:34:26 | INFO    | sync         | user d3521a7f-a3e2-4ca3-b3ed-6a997e6fa86c: created (new)
+2026-10-27 00:34:26 | INFO    | sync         | user 0b9d1601-f59e-41dc-9ded-d927c912f7cb: created (new)
+2026-10-27 00:34:26 | INFO    | sync         | user fe32da34-1faf-4845-8258-2e1e17aa42af: created (new)
+2026-10-27 00:34:26 | INFO    | sync         | user 44908a8e-8bb5-42e9-ad50-649bc6509b3a: created (new)
+2026-10-27 00:34:26 | INFO    | sync         | user c9c3e17b-c4a2-40b6-805e-d04cbf0de7d7: created (new)
+2026-10-27 00:34:26 | INFO    | sync         | user a3bfa3a2-7c86-44ef-988f-f9d181783ac7: created (new)
+2026-10-27 00:34:26 | WARNING | sync         | user dfb6e951-fec0-47cb-80bb-5c0a9382d352: no mail, used userPrincipalName as email
+2026-10-27 00:34:26 | INFO    | sync         | user dfb6e951-fec0-47cb-80bb-5c0a9382d352: created (new)
+2026-10-27 00:34:26 | INFO    | sync         | user d90b0518-b847-49fd-a56a-73a69b0b7c6f: created (new)
+2026-10-27 00:34:26 | INFO    | sync         | user 4f10a75a-ba3c-441d-9ff5-644003a5609c: created (new)
+2026-10-27 00:34:26 | WARNING | sync         | user 55d95de4-b2cc-495a-99b1-d8d36b317f41: no mail, used userPrincipalName as email
+2026-10-27 00:34:26 | WARNING | sync         | user 55d95de4-b2cc-495a-99b1-d8d36b317f41: missing fields set to null: department
+2026-10-27 00:34:26 | INFO    | sync         | user 55d95de4-b2cc-495a-99b1-d8d36b317f41: created (new)
+2026-10-27 00:34:26 | INFO    | sync         | user f077b312-5e6b-407c-a9a1-a6f7f428495f: created (new)
+2026-10-27 00:34:26 | INFO    | sync         | user 4d4201d4-066c-412f-ac56-37912b9458ab: created (new)
+2026-10-27 00:34:26 | WARNING | sync         | user df960105-4fd0-40ed-ab48-94977d2c7525: missing fields set to null: job_title
+2026-10-27 00:34:26 | INFO    | sync         | user df960105-4fd0-40ed-ab48-94977d2c7525: created (new)
+2026-10-27 00:34:26 | WARNING | sync         | user 35f3996c-1025-4ae3-876f-68bc94a03e8e: missing fields set to null: job_title
+2026-10-27 00:34:27 | INFO    | sync         | user 35f3996c-1025-4ae3-876f-68bc94a03e8e: created (new)
+2026-10-27 00:34:27 | INFO    | sync         | user 699c0031-0c5f-46b0-85f1-7a2d6a6129a2: created (new)
+2026-10-27 00:34:27 | WARNING | http         | POST 127.0.0.1:5000/users -> HTTP 500 | attempt 1/5, retrying in 1.2s
+2026-10-27 00:34:28 | INFO    | sync         | user e2867bb6-c25b-49c2-b9ff-d2c251cbb99e: created (new)
+2026-10-27 00:34:28 | INFO    | sync         | user 82fe0309-901a-433e-9663-6df118fe8c03: created (new)
+2026-10-27 00:34:28 | INFO    | sync         | user db993751-a7c5-40f1-8437-3ecbc715b487: created (new)
+2026-10-27 00:34:28 | INFO    | sync         | user dffdac82-3265-4853-8c35-8358bb126dc6: created (new)
+2026-10-27 00:34:28 | INFO    | sync         | user 14841864-6c99-4f4e-99e5-cfa9a137be7a: created (new)
+2026-10-27 00:34:28 | INFO    | sync         | user 54f25d6f-f0f7-4b1c-a88f-285a8cdb2d02: created (new)
+2026-10-27 00:34:28 | INFO    | sync         | user 98bf706f-99e3-49f1-a1fa-0e33876e99b6: created (new)
+2026-10-27 00:34:28 | INFO    | sync         | user d93ba59a-bba5-45eb-a13d-c354e588bb18: created (new)
+2026-10-27 00:34:28 | WARNING | sync         | user ba99780b-04fd-437d-921f-341bd28b325a: missing fields set to null: job_title
+2026-10-27 00:34:28 | INFO    | sync         | user ba99780b-04fd-437d-921f-341bd28b325a: created (new)
+2026-10-27 00:34:28 | INFO    | sync         | user 898f3adf-8de9-4c90-a666-9983e229aab2: created (new)
+2026-10-27 00:34:28 | INFO    | sync         | user f753ee6d-0a86-4fa8-aead-ffa6d8897a8e: created (new)
+2026-10-27 00:34:28 | INFO    | sync         | user e52162ed-52d9-45fc-9ff2-2f149bb462e9: created (new)
+2026-10-27 00:34:28 | INFO    | sync         | user 5f1daeec-2638-4205-9c3b-dc3e9419be1a: created (new)
+2026-10-27 00:34:28 | WARNING | http         | POST 127.0.0.1:5000/users -> HTTP 500 | attempt 1/5, retrying in 1.4s
+2026-10-27 00:34:29 | WARNING | http         | POST 127.0.0.1:5000/users -> HTTP 500 | attempt 2/5, retrying in 2.2s
+2026-10-27 00:34:32 | INFO    | sync         | user 1948fa79-40b6-4245-8b41-2b74417c5df3: created (new)
+2026-10-27 00:34:32 | WARNING | sync         | user faea8f3e-eb88-4b9e-a55e-b93dd133993f: missing fields set to null: job_title, department
+2026-10-27 00:34:32 | INFO    | sync         | user faea8f3e-eb88-4b9e-a55e-b93dd133993f: created (new)
+2026-10-27 00:34:32 | INFO    | sync         | user def5fe9e-c916-427a-a0c0-92899d3bc940: created (new)
+2026-10-27 00:34:32 | INFO    | sync         | user d4bacacb-64bf-45d0-8741-f97e48cf1997: created (new)
+2026-10-27 00:34:32 | INFO    | sync         | user 036c6867-337f-4e42-a70a-3bb31c1fa4ac: created (new)
+2026-10-27 00:34:32 | INFO    | sync         | user 25898e89-bce3-4c5a-b69d-d8c76f8d8c47: created (new)
+2026-10-27 00:34:32 | INFO    | sync         | user 091abd1c-f87b-4b24-bc2b-ed93c77baa7d: created (new)
+2026-10-27 00:34:32 | INFO    | sync         | user 5044886e-b4bc-4f3f-b1f7-ad29f4ac956f: created (new)
+2026-10-27 00:34:32 | INFO    | sync         | user caf726bf-99c2-4b6b-9463-f0ffd0397228: created (new)
+2026-10-27 00:34:32 | INFO    | sync         | user 987fb271-22f1-4139-9d2c-f91c1652a36a: created (new)
+2026-10-27 00:34:32 | INFO    | sync         | user b6d86ece-6b13-4f3d-961e-db6fb6440743: created (new)
+2026-10-27 00:34:32 | WARNING | sync         | user 5ee31e65-b4c4-470f-8d0c-bb61fffa6fd4: no mail, used userPrincipalName as email
+2026-10-27 00:34:32 | INFO    | sync         | user 5ee31e65-b4c4-470f-8d0c-bb61fffa6fd4: created (new)
+2026-10-27 00:34:32 | INFO    | sync         | user 3ab0d100-7db5-47f8-924d-8a94ba6578ca: created (new)
+2026-10-27 00:34:32 | WARNING | sync         | user 4a2b5b18-cd38-45c4-b5d7-9d4c7cd10a3e: missing fields set to null: department
+2026-10-27 00:34:32 | INFO    | sync         | user 4a2b5b18-cd38-45c4-b5d7-9d4c7cd10a3e: created (new)
+2026-10-27 00:34:32 | WARNING | sync         | user 1018a2cd-bb53-4265-8494-60aa6dcba836: missing fields set to null: job_title
+2026-10-27 00:34:32 | INFO    | sync         | user 1018a2cd-bb53-4265-8494-60aa6dcba836: created (new)
+2026-10-27 00:34:32 | INFO    | sync         | user 84de068b-9bce-43b7-ab05-285530ec830a: created (new)
+2026-10-27 00:34:32 | INFO    | sync         | user 9f35d071-d697-4044-81c4-482413b8e11c: created (new)
+2026-10-27 00:34:32 | INFO    | sync         | user e518ca51-7c57-472b-89ca-d63ae24d39e1: created (new)
+2026-10-27 00:34:32 | WARNING | sync         | user b7278e68-673f-4c04-8d3b-de52bee90556: no mail, used userPrincipalName as email
+2026-10-27 00:34:32 | INFO    | sync         | user b7278e68-673f-4c04-8d3b-de52bee90556: created (new)
+2026-10-27 00:34:32 | INFO    | sync         | user dee9a963-83b2-4116-bc4d-69da5262ef26: created (new)
+2026-10-27 00:34:32 | WARNING | http         | POST 127.0.0.1:5000/users -> HTTP 429 (server asked to wait 2s via Retry-After) | attempt 1/5, retrying in 2.0s
+2026-10-27 00:34:34 | INFO    | sync         | user 43f4c02d-dabf-4f8a-96b3-5e2f68ec1b19: created (new)
+2026-10-27 00:34:34 | WARNING | sync         | user 1a036490-f581-4c16-85f6-62cef018bc8d: no mail, used userPrincipalName as email
+2026-10-27 00:34:34 | INFO    | sync         | user 1a036490-f581-4c16-85f6-62cef018bc8d: created (new)
+2026-10-27 00:34:34 | WARNING | sync         | user a58a8c75-ed30-4858-af18-dd51a430eeaf: missing fields set to null: department
+2026-10-27 00:34:34 | INFO    | sync         | user a58a8c75-ed30-4858-af18-dd51a430eeaf: created (new)
+2026-10-27 00:34:34 | WARNING | sync         | user ad4c3b3c-8292-4de6-8852-5954ef6d85cb: no mail, used userPrincipalName as email
+2026-10-27 00:34:34 | INFO    | sync         | user ad4c3b3c-8292-4de6-8852-5954ef6d85cb: created (new)
+2026-10-27 00:34:34 | WARNING | sync         | user faf05e95-d377-40b3-b97e-76d1238a9686: no mail, used userPrincipalName as email
+2026-10-27 00:34:34 | WARNING | sync         | user faf05e95-d377-40b3-b97e-76d1238a9686: missing fields set to null: department
+2026-10-27 00:34:34 | INFO    | sync         | user faf05e95-d377-40b3-b97e-76d1238a9686: created (new)
+2026-10-27 00:34:34 | INFO    | sync         | user cd6d1ab7-9794-41fd-9f2b-f35816aef96b: created (new)
+2026-10-27 00:34:34 | INFO    | graph        | Graph page 2: received 100 users (more pages available)
+2026-10-27 00:34:34 | WARNING | sync         | user 5433f10e-bc2e-4368-b23d-a6808f480810: no mail, used userPrincipalName as email
+2026-10-27 00:34:34 | INFO    | sync         | user 5433f10e-bc2e-4368-b23d-a6808f480810: created (new)
+2026-10-27 00:34:34 | INFO    | sync         | user 1c772d2a-127c-47ab-bc43-9aa30197b461: created (new)
+2026-10-27 00:34:34 | WARNING | sync         | user e2cb56fb-2baa-4f6a-8d62-e1e7505041f4: no mail, used userPrincipalName as email
+2026-10-27 00:34:34 | INFO    | sync         | user e2cb56fb-2baa-4f6a-8d62-e1e7505041f4: created (new)
+2026-10-27 00:34:34 | WARNING | sync         | user 21391ac8-c229-4503-ab78-1bb2e594d369: missing fields set to null: job_title
+2026-10-27 00:34:34 | INFO    | sync         | user 21391ac8-c229-4503-ab78-1bb2e594d369: created (new)
+2026-10-27 00:34:34 | INFO    | sync         | user 7a447f87-4bbd-4600-83a5-c37a89ed63e7: created (new)
+2026-10-27 00:34:34 | INFO    | sync         | user e46d7f5a-15a5-4a84-b35b-53ddcc922869: created (new)
+2026-10-27 00:34:34 | INFO    | sync         | user 2d51c5ae-1220-4e38-9350-fffd45a58f5a: created (new)
+2026-10-27 00:34:34 | INFO    | sync         | user ca464d99-7921-4b9d-ab85-f1e5f9186d0b: created (new)
+2026-10-27 00:34:34 | WARNING | sync         | user 878c42d2-f1b9-4a11-a152-02b85ad2f82a: missing fields set to null: department
+2026-10-27 00:34:34 | INFO    | sync         | user 878c42d2-f1b9-4a11-a152-02b85ad2f82a: created (new)
+2026-10-27 00:34:34 | INFO    | sync         | user fa04a303-e6e2-4407-a9dd-0a025d1c0174: created (new)
+2026-10-27 00:34:34 | WARNING | sync         | user 2d9667f5-86ff-4032-92e1-a1d966cd125d: missing fields set to null: job_title
+2026-10-27 00:34:34 | INFO    | sync         | user 2d9667f5-86ff-4032-92e1-a1d966cd125d: created (new)
+2026-10-27 00:34:34 | INFO    | sync         | user b698ba18-8e08-4419-9535-2f435dc87041: created (new)
+2026-10-27 00:34:34 | INFO    | sync         | user 1c64b4ee-b7a1-4438-b820-ecb08c32afe2: created (new)
+2026-10-27 00:34:34 | INFO    | sync         | user 4894f845-7e8b-4986-925a-b7b0fa7203e6: created (new)
+2026-10-27 00:34:34 | INFO    | sync         | user 17cde3f9-7811-447e-bc2c-523017a8c9a2: created (new)
+2026-10-27 00:34:34 | WARNING | sync         | user 9dd316a7-aa4a-4225-8a64-bd3249e5faf7: missing fields set to null: department
+2026-10-27 00:34:34 | WARNING | http         | POST 127.0.0.1:5000/users -> HTTP 500 | attempt 1/5, retrying in 1.3s
+2026-10-27 00:34:36 | INFO    | sync         | user 9dd316a7-aa4a-4225-8a64-bd3249e5faf7: created (new)
+2026-10-27 00:34:36 | INFO    | sync         | user afa88f38-2abf-48d9-aa3b-41a9f31f4ebb: created (new)
+2026-10-27 00:34:36 | INFO    | sync         | user 06925cb9-e205-4c33-a86d-65e7c77150f0: created (new)
+2026-10-27 00:34:36 | INFO    | sync         | user 566cc702-1289-4bb4-b0e9-649c2825d119: created (new)
+2026-10-27 00:34:36 | WARNING | sync         | user a0ad6f11-8e9f-488a-8e4e-95e3a39bc452: no mail, used userPrincipalName as email
+2026-10-27 00:34:36 | INFO    | sync         | user a0ad6f11-8e9f-488a-8e4e-95e3a39bc452: created (new)
+2026-10-27 00:34:36 | WARNING | sync         | user deaa2080-f61a-432d-b28c-15622d966a17: no mail, used userPrincipalName as email
+2026-10-27 00:34:36 | INFO    | sync         | user deaa2080-f61a-432d-b28c-15622d966a17: created (new)
+2026-10-27 00:34:36 | INFO    | sync         | user 76f81028-80b5-4f50-8d9d-af951175dbe6: created (new)
+2026-10-27 00:34:36 | INFO    | sync         | user 28014062-9d70-49fa-8ecf-68746e5ee32b: created (new)
+2026-10-27 00:34:36 | INFO    | sync         | user 12032522-8c2e-4417-b8e6-39bb368cd4ae: created (new)
+2026-10-27 00:34:36 | WARNING | sync         | user 1247f970-2388-4bbe-97a9-271a077396d4: missing fields set to null: department
+2026-10-27 00:34:36 | INFO    | sync         | user 1247f970-2388-4bbe-97a9-271a077396d4: created (new)
+2026-10-27 00:34:36 | INFO    | sync         | user 42c18cff-3cad-4ef6-b10a-5b36462d4b28: created (new)
+2026-10-27 00:34:36 | INFO    | sync         | user 4864992c-a9cc-4220-a1f4-772b8d392e19: created (new)
+2026-10-27 00:34:36 | INFO    | sync         | user 3d72e9fb-f2fb-40a0-ae19-5bcdc5f5dcb5: created (new)
+2026-10-27 00:34:36 | INFO    | sync         | user d30ac3c4-3e6c-4d3f-8f08-c8a6c7311a8d: created (new)
+2026-10-27 00:34:36 | WARNING | sync         | user 00251e5f-d2f1-4f66-ac93-3b143b6f7914: missing fields set to null: job_title, department
+2026-10-27 00:34:36 | INFO    | sync         | user 00251e5f-d2f1-4f66-ac93-3b143b6f7914: created (new)
+2026-10-27 00:34:36 | INFO    | sync         | user db1614b9-a302-47a0-b1bc-cfc8fd32c0da: created (new)
+2026-10-27 00:34:36 | INFO    | sync         | user 52204d9e-81c7-49dd-9f0a-38d71d8ff2e4: created (new)
+2026-10-27 00:34:36 | WARNING | sync         | user db36d1bb-d5d9-4c32-97ca-80675326ca8c: missing fields set to null: department
+2026-10-27 00:34:36 | INFO    | sync         | user db36d1bb-d5d9-4c32-97ca-80675326ca8c: created (new)
+2026-10-27 00:34:36 | WARNING | sync         | user a0033bb9-e9da-4230-99fb-95d7be3d647c: missing fields set to null: job_title
+2026-10-27 00:34:36 | INFO    | sync         | user a0033bb9-e9da-4230-99fb-95d7be3d647c: created (new)
+2026-10-27 00:34:36 | INFO    | sync         | user 6ee8a1d0-d078-4f8a-9a76-c2f35eb1809a: created (new)
+2026-10-27 00:34:36 | WARNING | sync         | user 08d358d8-cdbb-4bc8-a868-c4f3aa534915: missing fields set to null: job_title
+2026-10-27 00:34:36 | INFO    | sync         | user 08d358d8-cdbb-4bc8-a868-c4f3aa534915: created (new)
+2026-10-27 00:34:36 | INFO    | sync         | user bc0a524f-1515-4030-83a7-0fb7e94206bf: created (new)
+2026-10-27 00:34:36 | INFO    | sync         | user 8da62899-f7ee-4e50-bc9e-365bebe7a6cc: created (new)
+2026-10-27 00:34:36 | INFO    | sync         | user 3bf07c93-905f-412d-a130-f62afaadec43: created (new)
+2026-10-27 00:34:36 | WARNING | sync         | user b3b32d15-cdb0-44af-9ef1-a78fdcaba3ec: missing fields set to null: job_title
+2026-10-27 00:34:36 | INFO    | sync         | user b3b32d15-cdb0-44af-9ef1-a78fdcaba3ec: created (new)
+2026-10-27 00:34:36 | INFO    | sync         | user 53a573df-d5bb-468c-a9bb-6f19e2ebc23f: created (new)
+2026-10-27 00:34:36 | WARNING | sync         | user 5f81ecc9-c1b2-4c31-bd50-30ccb33ba63f: missing fields set to null: job_title
+2026-10-27 00:34:36 | WARNING | http         | POST 127.0.0.1:5000/users -> HTTP 500 | attempt 1/5, retrying in 1.5s
+2026-10-27 00:34:38 | INFO    | sync         | user 5f81ecc9-c1b2-4c31-bd50-30ccb33ba63f: created (new)
+2026-10-27 00:34:38 | INFO    | sync         | user d58d5257-f65e-4f3f-bf4e-7f9bc58189a3: created (new)
+2026-10-27 00:34:38 | INFO    | sync         | user 758cc8da-6920-4823-bde3-2fa8d9cb695e: created (new)
+2026-10-27 00:34:38 | INFO    | sync         | user 2941ad9a-7b9f-47d8-b0d4-3c8e49465c35: created (new)
+2026-10-27 00:34:38 | WARNING | http         | POST 127.0.0.1:5000/users -> HTTP 500 | attempt 1/5, retrying in 1.1s
+2026-10-27 00:34:39 | INFO    | sync         | user a9f641cc-e793-4c9d-b5c8-422fbfa25b88: created (new)
+2026-10-27 00:34:39 | INFO    | sync         | user 2e94a310-063b-4cf2-b961-2d85b1acec13: created (new)
+2026-10-27 00:34:39 | INFO    | sync         | user 622ea06a-cb05-457f-915e-ecbeef5130ac: created (new)
+2026-10-27 00:34:39 | WARNING | sync         | user 9883e034-c55c-406a-af6e-f031b96ad95b: no mail, used userPrincipalName as email
+2026-10-27 00:34:39 | INFO    | sync         | user 9883e034-c55c-406a-af6e-f031b96ad95b: created (new)
+2026-10-27 00:34:39 | WARNING | sync         | user e3f58854-f090-4a22-8b13-d6c079848ce8: missing fields set to null: job_title
+2026-10-27 00:34:39 | INFO    | sync         | user e3f58854-f090-4a22-8b13-d6c079848ce8: created (new)
+2026-10-27 00:34:39 | WARNING | sync         | user e4c01056-fa61-485c-9d9c-3d06fac58449: no mail, used userPrincipalName as email
+2026-10-27 00:34:39 | INFO    | sync         | user e4c01056-fa61-485c-9d9c-3d06fac58449: created (new)
+2026-10-27 00:34:39 | WARNING | http         | POST 127.0.0.1:5000/users -> HTTP 500 | attempt 1/5, retrying in 1.5s
+2026-10-27 00:34:41 | INFO    | sync         | user f5a21349-2064-44ca-8211-0bcbeb771dd3: created (new)
+2026-10-27 00:34:41 | WARNING | sync         | user 87340e3c-57ff-4987-9863-278150f40257: missing fields set to null: department
+2026-10-27 00:34:41 | INFO    | sync         | user 87340e3c-57ff-4987-9863-278150f40257: created (new)
+2026-10-27 00:34:41 | INFO    | sync         | user 9fbea9fe-f9ff-424f-97bc-c1d6506354ef: created (new)
+2026-10-27 00:34:41 | INFO    | sync         | user 876c241b-e6fd-478d-870f-bdd185e7c5bd: created (new)
+2026-10-27 00:34:41 | INFO    | sync         | user fd272927-af5a-4612-912a-3c0246549e36: created (new)
+2026-10-27 00:34:41 | WARNING | sync         | user 0b43586b-c09a-4d7d-b3c7-1fc6d310ec40: no mail, used userPrincipalName as email
+2026-10-27 00:34:41 | WARNING | sync         | user 0b43586b-c09a-4d7d-b3c7-1fc6d310ec40: missing fields set to null: job_title
+2026-10-27 00:34:41 | INFO    | sync         | user 0b43586b-c09a-4d7d-b3c7-1fc6d310ec40: created (new)
+2026-10-27 00:34:41 | INFO    | sync         | user 4bc970c4-83a1-4f13-9bc9-5b937f4a7203: created (new)
+2026-10-27 00:34:41 | INFO    | sync         | user da60e323-63de-4a4f-9e28-4a33d998c93f: created (new)
+2026-10-27 00:34:41 | INFO    | sync         | user 9c97bd02-6345-4aec-aa93-ecc74deb9f70: created (new)
+2026-10-27 00:34:41 | WARNING | sync         | user e22da697-ffbf-4755-9f61-140ebdaa45a3: missing fields set to null: job_title
+2026-10-27 00:34:41 | INFO    | sync         | user e22da697-ffbf-4755-9f61-140ebdaa45a3: created (new)
+2026-10-27 00:34:41 | INFO    | sync         | user 0c050f7e-eafd-4a52-82bf-0b9f8ec1e362: created (new)
+2026-10-27 00:34:41 | INFO    | sync         | user 951507bd-fd45-48d6-bcc4-df359906c775: created (new)
+2026-10-27 00:34:41 | INFO    | sync         | user c0ff6b7d-f8c0-4765-834c-6d3806ae67d9: created (new)
+2026-10-27 00:34:41 | INFO    | sync         | user c83c8e5e-a771-418f-b1bf-e4bd22863807: created (new)
+2026-10-27 00:34:41 | WARNING | sync         | user 71e1e42a-e958-4618-b40e-261cc3bed973: missing fields set to null: job_title
+2026-10-27 00:34:41 | INFO    | sync         | user 71e1e42a-e958-4618-b40e-261cc3bed973: created (new)
+2026-10-27 00:34:41 | INFO    | sync         | user 403159d4-4fe4-4766-9f7a-9bda3c26085f: created (new)
+2026-10-27 00:34:41 | INFO    | sync         | user 14216a93-df93-4f2c-a151-9f601581e2fe: created (new)
+2026-10-27 00:34:41 | INFO    | sync         | user 8de6c90d-780a-427e-800b-81420a8f61e9: created (new)
+2026-10-27 00:34:41 | INFO    | sync         | user fae8e3cf-31f0-42a8-8d3a-748523a1aed7: created (new)
+2026-10-27 00:34:41 | WARNING | sync         | user 80278391-ba1b-4a41-8e06-e4e65fca7a96: no mail, used userPrincipalName as email
+2026-10-27 00:34:41 | WARNING | sync         | user 80278391-ba1b-4a41-8e06-e4e65fca7a96: missing fields set to null: department
+2026-10-27 00:34:41 | INFO    | sync         | user 80278391-ba1b-4a41-8e06-e4e65fca7a96: created (new)
+2026-10-27 00:34:41 | INFO    | sync         | user 535e19fe-e378-40b4-9e49-f219eabed2a0: created (new)
+2026-10-27 00:34:41 | WARNING | sync         | user 3e55fbd2-9d78-43a5-9995-1971021d4d16: missing fields set to null: department
+2026-10-27 00:34:41 | INFO    | sync         | user 3e55fbd2-9d78-43a5-9995-1971021d4d16: created (new)
+2026-10-27 00:34:41 | INFO    | sync         | user 009ed388-2217-42bc-bd2b-1b2d77414b1e: created (new)
+2026-10-27 00:34:41 | INFO    | sync         | user 98fc0f74-3dcc-48b0-b8d1-62189c75c5e5: created (new)
+2026-10-27 00:34:41 | WARNING | sync         | user 63a12840-c009-4dc4-bb29-ab7f6722401e: no mail, used userPrincipalName as email
+2026-10-27 00:34:41 | INFO    | sync         | user 63a12840-c009-4dc4-bb29-ab7f6722401e: created (new)
+2026-10-27 00:34:41 | INFO    | sync         | user ea111037-9430-40f7-ac53-1eff051e7a08: created (new)
+2026-10-27 00:34:41 | INFO    | sync         | user 4b2d081e-78d9-4b4e-8774-a827360f817c: created (new)
+2026-10-27 00:34:41 | INFO    | sync         | user 4b0bd31b-0689-46c5-b3c0-59c7d2296888: created (new)
+2026-10-27 00:34:41 | INFO    | sync         | user 92166095-a176-455c-b020-339797d9c263: created (new)
+2026-10-27 00:34:41 | INFO    | sync         | user 76718a88-adc7-4e1b-a8e8-82226c1bff3f: created (new)
+2026-10-27 00:34:41 | INFO    | sync         | user e51085ef-cf8c-41f2-849d-96ef7c558c35: created (new)
+2026-10-27 00:34:41 | INFO    | sync         | user cb877e01-c613-4c10-bb06-b8e3a2cff0de: created (new)
+2026-10-27 00:34:41 | INFO    | sync         | user b8703d92-d860-4b23-9134-a50c418fed7c: created (new)
+2026-10-27 00:34:41 | INFO    | sync         | user c2e1127b-5b8d-4f83-8661-b949b59a5e5d: created (new)
+2026-10-27 00:34:41 | INFO    | sync         | user 178724b1-3d1e-403b-92aa-37dfdca98662: created (new)
+2026-10-27 00:34:41 | INFO    | sync         | user 8cd88eb6-4e6c-4d45-8ce0-3622582ce117: created (new)
+2026-10-27 00:34:41 | INFO    | sync         | user 4b91343f-7336-4322-9b5a-2b83731bbda7: created (new)
+2026-10-27 00:34:41 | INFO    | sync         | user 1e32d4c7-6f14-42d8-8573-e66bda71e985: created (new)
+2026-10-27 00:34:41 | INFO    | sync         | user bc906586-4d1e-4bf3-aa9d-88e8185a9557: created (new)
+2026-10-27 00:34:41 | INFO    | sync         | user f8d2688c-02b2-4e36-9d6c-c0b28f7857e1: created (new)
+2026-10-27 00:34:41 | INFO    | sync         | user b11baa30-9067-4331-ac9f-22675cd59817: created (new)
+2026-10-27 00:34:41 | WARNING | sync         | user 19220603-db40-48b0-8f42-12a02c052a63: no mail, used userPrincipalName as email
+2026-10-27 00:34:41 | WARNING | sync         | user 19220603-db40-48b0-8f42-12a02c052a63: missing fields set to null: job_title, department, office
+2026-10-27 00:34:41 | INFO    | sync         | user 19220603-db40-48b0-8f42-12a02c052a63: created (new)
+2026-10-27 00:34:41 | WARNING | sync         | user 6efa8dea-d5d8-4232-8a01-d2b565c6b067: missing fields set to null: department, office
+2026-10-27 00:34:41 | INFO    | sync         | user 6efa8dea-d5d8-4232-8a01-d2b565c6b067: created (new)
+2026-10-27 00:34:41 | INFO    | sync         | user 4456c47f-6aca-43ae-9592-80f1cbdc2a40: created (new)
+2026-10-27 00:34:41 | INFO    | sync         | user 06d0b60e-74c9-4540-946c-cc022dfce379: created (new)
+2026-10-27 00:34:41 | WARNING | sync         | user aaace661-b2c1-4d5c-a512-30cd9d6a8ae1: missing fields set to null: job_title
+2026-10-27 00:34:41 | INFO    | sync         | user aaace661-b2c1-4d5c-a512-30cd9d6a8ae1: created (new)
+2026-10-27 00:34:41 | WARNING | http         | POST 127.0.0.1:5000/users -> HTTP 429 (server asked to wait 2s via Retry-After) | attempt 1/5, retrying in 2.0s
+2026-10-27 00:34:43 | INFO    | sync         | user 167809ee-ac12-4325-b19d-d2607e3829dd: created (new)
+2026-10-27 00:34:43 | WARNING | sync         | user 9ec75d81-133d-44f4-8b9f-f948cee31f69: missing fields set to null: department
+2026-10-27 00:34:43 | INFO    | sync         | user 9ec75d81-133d-44f4-8b9f-f948cee31f69: created (new)
+2026-10-27 00:34:43 | WARNING | sync         | user c74a75aa-501d-4b86-806e-ce38fbe27367: no mail, used userPrincipalName as email
+2026-10-27 00:34:43 | INFO    | sync         | user c74a75aa-501d-4b86-806e-ce38fbe27367: created (new)
+2026-10-27 00:34:44 | INFO    | graph        | Graph page 3: received 51 users (last page)
+2026-10-27 00:34:44 | INFO    | sync         | user b7602429-da6c-40d2-8723-49ac6ffba464: created (new)
+2026-10-27 00:34:44 | INFO    | sync         | user 1f46fe76-a506-4e70-97dc-5433391aadc8: created (new)
+2026-10-27 00:34:44 | INFO    | sync         | user 1745945b-35bd-49a5-9a66-1f8e8ffa874d: created (new)
+2026-10-27 00:34:44 | WARNING | sync         | user fb201ce7-690a-4116-8f10-9bb2f6edf386: no mail, used userPrincipalName as email
+2026-10-27 00:34:44 | INFO    | sync         | user fb201ce7-690a-4116-8f10-9bb2f6edf386: created (new)
+2026-10-27 00:34:44 | INFO    | sync         | user c554c10b-6069-4304-9545-e53e25c4271b: created (new)
+2026-10-27 00:34:44 | WARNING | sync         | user cce26787-023d-4f10-ade0-bac70e34f480: missing fields set to null: job_title
+2026-10-27 00:34:44 | INFO    | sync         | user cce26787-023d-4f10-ade0-bac70e34f480: created (new)
+2026-10-27 00:34:44 | INFO    | sync         | user 5942125b-afd6-42d3-a90d-0506a5a87fa4: created (new)
+2026-10-27 00:34:44 | INFO    | sync         | user 5df5555e-9107-4eae-8c67-264b3fac5f38: created (new)
+2026-10-27 00:34:44 | WARNING | sync         | user 4edba79d-49e2-46fc-a262-13ddb204f6ce: missing fields set to null: job_title
+2026-10-27 00:34:44 | INFO    | sync         | user 4edba79d-49e2-46fc-a262-13ddb204f6ce: created (new)
+2026-10-27 00:34:44 | INFO    | sync         | user 4d75f6b8-0f38-4e90-bb88-02a2bc6969dc: created (new)
+2026-10-27 00:34:44 | INFO    | sync         | user 6c27a8a7-0039-4a7a-b32e-135cd126429e: created (new)
+2026-10-27 00:34:44 | INFO    | sync         | user ce74b431-4ebf-4ece-a0b5-000be105301f: created (new)
+2026-10-27 00:34:44 | INFO    | sync         | user 1b77dde9-12bd-4cb5-8d04-1f218880022c: created (new)
+2026-10-27 00:34:44 | INFO    | sync         | user e3c7483f-fa3e-45f3-be83-146dce5a7b72: created (new)
+2026-10-27 00:34:44 | INFO    | sync         | user a5d7cb22-312d-469b-8627-c38ac9775b86: created (new)
+2026-10-27 00:34:44 | WARNING | sync         | user 51c17d42-ca26-461f-b8b4-dfad9cca613e: missing fields set to null: department
+2026-10-27 00:34:44 | INFO    | sync         | user 51c17d42-ca26-461f-b8b4-dfad9cca613e: created (new)
+2026-10-27 00:34:44 | INFO    | sync         | user a62c8149-3970-4e54-b2b5-d4790ee0d653: created (new)
+2026-10-27 00:34:44 | WARNING | sync         | user 432b9922-1edf-4451-b8b2-e8719e986eab: missing fields set to null: department
+2026-10-27 00:34:44 | INFO    | sync         | user 432b9922-1edf-4451-b8b2-e8719e986eab: created (new)
+2026-10-27 00:34:44 | INFO    | sync         | user 4e3e0a91-e490-4e8c-a10b-01862f68bce3: created (new)
+2026-10-27 00:34:44 | INFO    | sync         | user 706db9b0-cf0b-49d8-ac1c-a9cefb4abe72: created (new)
+2026-10-27 00:34:44 | INFO    | sync         | user c20fa41e-ef5b-45aa-9f3a-fe697f38ef59: created (new)
+2026-10-27 00:34:44 | INFO    | sync         | user 83840b77-3cf2-4b95-a177-b1fe2c82b068: created (new)
+2026-10-27 00:34:44 | INFO    | sync         | user 2b238167-4994-4af6-b16b-fa3db8325798: created (new)
+2026-10-27 00:34:44 | INFO    | sync         | user 19965b01-2974-4078-ab5a-b1fa9b6277f1: created (new)
+2026-10-27 00:34:44 | WARNING | sync         | user 194208dc-9d0d-4fcd-b0d5-c8feb1ca8fc8: missing fields set to null: department
+2026-10-27 00:34:44 | INFO    | sync         | user 194208dc-9d0d-4fcd-b0d5-c8feb1ca8fc8: created (new)
+2026-10-27 00:34:44 | INFO    | sync         | user b3246cda-305f-4790-a350-00f5c98aba96: created (new)
+2026-10-27 00:34:44 | WARNING | sync         | user 2ebe4128-270d-4e5b-9492-7f0109f2d62d: no mail, used userPrincipalName as email
+2026-10-27 00:34:44 | INFO    | sync         | user 2ebe4128-270d-4e5b-9492-7f0109f2d62d: created (new)
+2026-10-27 00:34:44 | WARNING | sync         | user bb5ba7b4-f9b1-4712-9925-fddb1dd52b67: missing fields set to null: job_title
+2026-10-27 00:34:44 | INFO    | sync         | user bb5ba7b4-f9b1-4712-9925-fddb1dd52b67: created (new)
+2026-10-27 00:34:44 | WARNING | sync         | user 50f61ad7-47dd-4834-b738-0e405e92d710: missing fields set to null: department
+2026-10-27 00:34:44 | INFO    | sync         | user 50f61ad7-47dd-4834-b738-0e405e92d710: created (new)
+2026-10-27 00:34:44 | INFO    | sync         | user d830eaf8-e989-4e30-aece-3aa9e3c06c72: created (new)
+2026-10-27 00:34:44 | INFO    | sync         | user 1212af73-2251-4f3b-b21d-5a077c7335db: created (new)
+2026-10-27 00:34:44 | INFO    | sync         | user 4a151797-a1d4-4f57-a931-a68a121dea14: created (new)
+2026-10-27 00:34:44 | WARNING | sync         | user 7d598e8d-df17-4c76-8759-693aaad241fe: missing fields set to null: job_title
+2026-10-27 00:34:44 | INFO    | sync         | user 7d598e8d-df17-4c76-8759-693aaad241fe: created (new)
+2026-10-27 00:34:44 | INFO    | sync         | user c73fce22-8fdc-4019-a6e7-81f6e36d3fd1: created (new)
+2026-10-27 00:34:44 | INFO    | sync         | user 2ebae044-78e1-4a4b-af32-a6f032af830a: created (new)
+2026-10-27 00:34:44 | INFO    | sync         | user 0cadd310-1d6e-4a6a-be87-ce0b18bb6b64: created (new)
+2026-10-27 00:34:44 | INFO    | sync         | user 77d8b6c3-9e3f-4dfa-9219-aa7da8889063: created (new)
+2026-10-27 00:34:44 | WARNING | sync         | user 780fd86b-dadf-4323-bbd5-db59e7b6c56a: missing fields set to null: job_title
+2026-10-27 00:34:44 | INFO    | sync         | user 780fd86b-dadf-4323-bbd5-db59e7b6c56a: created (new)
+2026-10-27 00:34:44 | WARNING | sync         | user 471da59d-0df2-4db4-b33f-52abd3b428af: missing fields set to null: department
+2026-10-27 00:34:44 | INFO    | sync         | user 471da59d-0df2-4db4-b33f-52abd3b428af: created (new)
+2026-10-27 00:34:44 | WARNING | sync         | user 1f0dfc13-7ab8-41fd-a7c3-41c9b4724fdb: missing fields set to null: department, office
+2026-10-27 00:34:44 | INFO    | sync         | user 1f0dfc13-7ab8-41fd-a7c3-41c9b4724fdb: created (new)
+2026-10-27 00:34:44 | INFO    | sync         | user 0974ca33-1ff5-4c17-a6dc-427cabb6e99c: created (new)
+2026-10-27 00:34:44 | INFO    | sync         | user a551b361-7f1c-434a-b259-b3faae57189b: created (new)
+2026-10-27 00:34:44 | INFO    | sync         | user 583794f6-5000-4aeb-b95e-1c7ead91b4d2: created (new)
+2026-10-27 00:34:44 | INFO    | sync         | user 3ed62483-d9cd-42a3-84e2-0f0820be4302: created (new)
+2026-10-27 00:34:44 | WARNING | http         | POST 127.0.0.1:5000/users -> HTTP 500 | attempt 1/5, retrying in 1.4s
+2026-10-27 00:34:46 | INFO    | sync         | user 86f1de01-17b5-43ae-8ad6-6c8e73983c50: created (new)
+2026-10-27 00:34:46 | WARNING | sync         | user f295c0f3-f487-4ffb-b3af-a1faebe5f32a: missing fields set to null: job_title
+2026-10-27 00:34:46 | INFO    | sync         | user f295c0f3-f487-4ffb-b3af-a1faebe5f32a: created (new)
+2026-10-27 00:34:46 | WARNING | sync         | user b2f2e7b1-2e39-486b-b986-fbb513d812c9: no mail, used userPrincipalName as email
+2026-10-27 00:34:46 | WARNING | http         | POST 127.0.0.1:5000/users -> HTTP 429 (server asked to wait 2s via Retry-After) | attempt 1/5, retrying in 2.0s
+2026-10-27 00:34:48 | INFO    | sync         | user b2f2e7b1-2e39-486b-b986-fbb513d812c9: created (new)
+2026-10-27 00:34:48 | INFO    | sync         | user 3531c2be-4bb0-46d2-8b5e-f72ad1017f81: created (new)
+2026-10-27 00:34:48 | WARNING | sync         | user bbddfa6b-0ac1-42d7-b29d-768e997a04b6: missing fields set to null: department
+2026-10-27 00:34:48 | INFO    | sync         | user bbddfa6b-0ac1-42d7-b29d-768e997a04b6: created (new)
+2026-10-27 00:34:48 | WARNING | sync         | user d92b7edd-34d9-42b1-a487-b980d82bbe9c: no mail, used userPrincipalName as email
+2026-10-27 00:34:48 | INFO    | sync         | user d92b7edd-34d9-42b1-a487-b980d82bbe9c: created (new)
+2026-10-27 00:34:48 | WARNING | sync         | user c142744e-38c6-4e17-8d5b-d38f2d4119d3: no mail, used userPrincipalName as email
+2026-10-27 00:34:48 | INFO    | sync         | user c142744e-38c6-4e17-8d5b-d38f2d4119d3: created (new)
+2026-10-27 00:34:48 | INFO    | sync         | Transformed JSON written to output/users.json
+2026-10-27 00:34:48 | INFO    | sync         | === Summary (run edfb59d9, 31.6s) ===
+2026-10-27 00:34:48 | INFO    | sync         |   fetched              251
+2026-10-27 00:34:48 | INFO    | sync         |   created              251
+2026-10-27 00:34:48 | INFO    | sync         |   with_missing_fields  67
+2026-10-27 00:34:48 | INFO    | sync         |   failed               0
+2026-10-27 00:34:48 | INFO    | sync         | Log file: logs\sync_20261027_003416.log

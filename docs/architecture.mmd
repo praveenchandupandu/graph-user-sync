@@ -1,0 +1,20 @@
+flowchart LR
+    ENV[".env<br/>Tenant ID · Client ID · Secret<br/>(excluded from Git)"] --> A
+    A["1 · Authenticate<br/>auth.py · MSAL<br/>client credentials"] -- "token request" --> ENTRA["Microsoft Entra ID<br/>login.microsoftonline.com"]
+    A --> B["2 · Read users<br/>graph_client.py<br/>follows @odata.nextLink"]
+    B -- "GET /v1.0/users<br/>Bearer token" --> GRAPH["Microsoft Graph<br/>251 users · 3 pages: 100+100+51"]
+    B --> C["3 · Transform<br/>transform.py<br/>rename fields · missing data<br/>· SHA-256 fingerprint"]
+    C --> JSON["output/users.json"]
+    C --> D{"4 · Already sent?<br/>state_store.py (SQLite)"}
+    D -- "unchanged → skip" --> SKIP["skipped"]
+    D -- "new / changed" --> E["5 · Send<br/>api_client.py<br/>Idempotency-Key"]
+    E -- "POST /users" --> MOCK["Mock REST API (Flask)<br/>random 429 / 500"]
+    E -- "success → save id + hash" --> D
+    R["http_client.py · retries<br/>429 → wait Retry-After<br/>5xx → backoff 1s,2s,4s,8s"] -.-> B
+    R -.-> E
+    L["logs/sync_*.log<br/>IDs only, no emails"]
+    style GRAPH fill:#e8f1fb,stroke:#0078d4
+    style ENTRA fill:#e8f1fb,stroke:#0078d4
+    style MOCK fill:#fff4e5,stroke:#e08a00
+    style R fill:#f3f3f3,stroke:#888
+    style L fill:#f3f3f3,stroke:#888
